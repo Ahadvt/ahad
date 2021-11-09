@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+  height: 70vh;
+  width: 70vw;
+    
+}
+.img{
+    width: 200px;
+    height: 200px;
+position: relative;
+animation-name: imganimation;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+
+
+}
+@keyframes imganimation{
+
+0%{
+top: 0px;
+left: 0px;
+}
+25%{
+    top: 100%;
+    left: 100%;
+    background-color: red;
+}
+75%{
+    top: 0px;
+    left: 100%;
+    background-color:blue;
+}
+100%{
+    top: 100%;
+    left: 0px;
+    background-color: green;
+}
+
+}
